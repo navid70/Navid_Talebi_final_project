@@ -1,0 +1,50 @@
+
+.sidebar-sorted{
+    height: 50px;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: #f5f5f5 !important;
+    span{
+        color: #636363;
+        width:10%;
+    }
+    li{
+        list-style: none;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+    ul{
+        width: 90%;
+    }
+}
+
+.active-sorted{
+    transition: all 0.5s ease;
+    position: relative;
+    &:hover{
+        &::after{
+            content: "";
+            border-bottom: 2px solid #a141c7;
+            position: absolute;
+            bottom: -13px;
+            width: 104px;
+            right: -6px;
+
+            transition: all 0.5s ease;
+        }
+        color: #c049e3;
+        
+    }
+  
+}
+
+@keyframes animateBorderSorted {
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 104px;
+    }
+}

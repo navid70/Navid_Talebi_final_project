@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "vazir";
+  src: url(./assets/fonts/ttf/Vazir-Medium.ttf);
+}
+
+a {
+  text-decoration: none;
+  padding: 2px;
+  color: white;
+
+}
+
+input {
+  outline: none;
+}
+
+body {
+
+  font-family: "vazir";
+  direction: rtl;
+  background-color: #363636;
+  scroll-behavior: smooth;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}

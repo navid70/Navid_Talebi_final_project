@@ -1,0 +1,75 @@
+$bg-green:#00bf6f;
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+.mySwiper {
+    width: 100% !important;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #363636;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  // .swiper-button-next:after, .swiper-button-prev:after {
+  //   font-family: swiper-icons;
+  //   font-size: var(--swiper-navigation-size);
+  //   text-transform: none!important;
+  //   letter-spacing: 0;
+  //   text-transform: none;
+  //   font-variant: initial;
+  //   line-height: 1;
+  //   /* font-size: 36px; */
+  //   position: relative;
+  //   /* left: 1rem; */
+  //   top: -79px;
+  // }
+  
+
+
+  .section__amazing{
+    &-title{
+      @media (max-width:768px) {
+         font-size: 17px;
+      }
+    }
+    &-timer{
+      font-size: 17px;
+      @media (max-width:768px) {
+        font-size: 16px;
+     }
+    }
+  }
+
+  
+  // .swiper-amazing {
+  //   .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+  //     content: 'prev';
+  //     position: relative;
+  //     top: -79px;
+  // }
+  // }
